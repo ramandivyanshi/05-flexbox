@@ -1,0 +1,4 @@
+1. delete this todo file
+2. make the folders exercise1 and exercise2 as required in this project folder.
+3. continue doing your work as per the folder structure told. use the resources provided.
+4. always read the instructions given.
