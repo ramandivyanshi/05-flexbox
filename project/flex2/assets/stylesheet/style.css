@@ -42,34 +42,43 @@ table {
 	border-spacing: 0;
 }
 
-body{width: 80%;
-    margin: 0 auto;
-    background-color:rgba(205, 216, 248, 0.308);
+body{
+	width: 100%;
+	font-size: 16px;
 }
-header{margin-top: 20px;
+.hero{
+	background-color: brown;
+}
+.header{
+    width: 80%;
     display: flex;
-    flex-direction: row;
-}
-.page{
-    margin: 0 auto;
-}
-h2{
-    justify-content: flex-start;
-}
-.filter{
-    justify-content:flex end;
-}
-.sort{ 
-    justify-content:flex end;
-}
-.photogrid1{padding-right:200px;
-    flex-direction: row;
+    justify-content: space-between;
+	margin: 0 auto;
+	padding: 2rem;
 
-    align-items: center;
-    margin: 0 auto;
+
 }
-.photogrid2{padding-left:200px;
-    flex-direction: row;
-    align-items: center;
-    margin: 0 auto;
+.navbar_menu{
+    display: flex;
+	justify-content: space-between;
+}
+li{
+	padding-left: 1rem;
+}
+
+.hero_cover{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 80%;
+}
+.btn{
+	padding: 0.5rem;
+	border-radius: 1rem;
+	border: none;
+	background-color: blueviolet;
+	
+}
+.btn:hover{
+	background-color: blue;
 }
