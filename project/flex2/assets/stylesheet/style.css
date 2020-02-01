@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -77,6 +78,7 @@ body {
 }
 
 .hero h1 {
+  font-weight: bolder;
   font-size: xx-large;
   color: white;
 }
@@ -85,7 +87,8 @@ body {
   color: #47c49a;
   font-size: medium;
   font-style: bold;
-  font-family: monospace;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
 
 .hero ul {
@@ -111,13 +114,12 @@ body {
 }
 
 .hero .hero_cover .btn {
-  height: 30px;
-  width: 150px;
-  margin-top: 20px;
+  width: 10rem;
   background-color: #15854d;
-  border-radius: 10px;
+  border-radius: 1rem;
   color: white;
   border: none;
+  padding: 1rem;
 }
 
 .hero .hero_cover .noborder {
@@ -126,8 +128,8 @@ body {
   display: flex;
   width: 50%;
   font-size: xxx-large;
-  font-style: bold;
-  font-family: monospace;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
   margin: 0 auto;
 }
@@ -139,11 +141,25 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 50%;
   padding-left: 50px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-left: 1px solid black;
+}
+
+.hero .hero_cover .borderleft p {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 /*# sourceMappingURL=style.css.map */
