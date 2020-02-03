@@ -116,7 +116,7 @@ body {
 .hero .hero_cover .btn {
   width: 10rem;
   background-color: #15854d;
-  border-radius: 1rem;
+  border-radius: 2rem;
   color: white;
   border: none;
   padding: 1rem;
@@ -158,8 +158,131 @@ body {
   margin-bottom: 1rem;
 }
 
+h1 {
+  font-weight: bold;
+  font-size: x-large;
+  color: blacK;
+}
+
+.part1 .part1-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: aqua;
+}
+
+.part1 .intro {
+  width: 49%;
+  border-right: 1px black;
+}
+
+.part1 p {
+  padding-top: 3rem;
+}
+
+.part1 button {
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.part1 .list {
+  padding-left: 2rem;
+  width: 51%;
+  border-left: 1px solid black;
+}
+
+.part1 .list li {
+  list-style-type: symbols(tick);
+  padding: 5px;
+}
+
+.wrapper {
+  background-color: #dee6f1;
+}
+
+.wrapper h1 {
+  padding: 3rem;
+}
+
+.wrapper p {
+  padding-left: 3rem;
+}
+
+.wrapper .part2 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .part3 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .part4 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.end-btn {
+  text-align: center;
+  padding: 1rem 2rem;
+  border: 1px solid gray;
+  border-radius: 2rem;
+}
+
+.ender {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ender .noborder {
+  width: 50%;
+}
+
+.ender .endlist {
+  padding-left: 4rem;
+  margin-top: 40px;
+  width: 47%;
+  border-left: 2px solid #c7c6c6;
+}
+
+.ender .endlist li {
+  padding: 1rem;
+}
+
+.button-container {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #dee6f1;
 }
 /*# sourceMappingURL=style.css.map */
