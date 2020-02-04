@@ -164,11 +164,24 @@ h1 {
   color: blacK;
 }
 
+.part1 {
+  background-color: white;
+  padding: 5rem 0rem 5rem 0rem;
+}
+
+.part1 button {
+  padding: 1rem 2rem 1rem 2rem;
+  margin-top: 2rem;
+  border-radius: 3rem;
+  border: none;
+}
+
 .part1 .part1-content {
+  width: 80%;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: aqua;
 }
 
 .part1 .intro {
@@ -180,12 +193,10 @@ h1 {
   padding-top: 3rem;
 }
 
-.part1 button {
-  border-radius: 1rem;
-  margin-top: 1rem;
-}
-
 .part1 .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding-left: 2rem;
   width: 51%;
   border-left: 1px solid black;
@@ -196,6 +207,7 @@ h1 {
   padding: 5px;
 }
 
+/*........................................................*/
 .wrapper {
   background-color: #dee6f1;
 }
@@ -218,6 +230,14 @@ h1 {
   display: flex;
 }
 
+.wrapper .button-wrapper {
+  padding: 1rem 2rem 1rem 2rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  border-radius: 3rem;
+  border: none;
+}
+
 .wrapper .part3 {
   width: 90%;
   margin: 0 auto;
@@ -238,13 +258,13 @@ h1 {
   display: flex;
 }
 
-.end-btn {
+/*..........................................................*/
+.button-container {
   text-align: center;
-  padding: 1rem 2rem;
-  border: 1px solid gray;
-  border-radius: 2rem;
+  margin-bottom: 3rem;
 }
 
+/*.........................................................*/
 .ender {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -252,6 +272,31 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.ender form {
+  padding-left: 5rem;
+}
+
+.ender button {
+  padding: 1rem 2rem 1rem 2rem;
+  margin-top: 2rem;
+  border-radius: 3rem;
+  border: none;
+}
+
+.ender input {
+  margin-right: 3.6rem;
+  padding-right: 7rem;
+}
+
+.ender h1 {
+  padding-left: 7rem;
+}
+
+.ender p {
+  padding-left: 5rem;
+  width: 85%;
 }
 
 .ender .noborder {
@@ -269,10 +314,7 @@ h1 {
   padding: 1rem;
 }
 
-.button-container {
-  text-align: center;
-}
-
+/*........................................................*/
 footer {
   text-align: center;
   padding: 2rem;
