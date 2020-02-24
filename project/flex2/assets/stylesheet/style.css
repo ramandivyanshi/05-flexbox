@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+.hero {
+  margin: 0 auto;
+  padding: 1rem 0rem 3rem 0rem;
+  background-color: indigo;
+  background: -webkit-gradient(linear, left top, right top, from(#6a22ee), to(#c139f7));
+  background: linear-gradient(to right, #6a22ee, #c139f7);
+}
+
+.hero h1 {
+  font-size: xxx-large;
+}
+
+.hero header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-weight: bolder;
+  font-size: xx-large;
+  color: white;
+}
+
+.hero a {
+  color: #47c49a;
+  font-size: medium;
+  font-style: bold;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.hero ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero ul li {
+  padding-left: 1rem;
+}
+
+.hero .hero_cover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 150px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hero .hero_cover .btn {
+  width: 10rem;
+  background-color: #15854d;
+  border-radius: 2rem;
+  color: white;
+  border: none;
+  padding: 1rem;
+}
+
+.hero .hero_cover .noborder {
+  width: 50%;
+  font-size: xxx-large;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  margin: 0 auto;
+  padding-right: 50px;
+}
+
+.hero .hero_cover .borderleft {
+  font-size: larger;
+  color: white;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  padding-left: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-left: 1px solid black;
+}
+
+.hero .hero_cover .borderleft p {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: x-large;
+  color: blacK;
+}
+
+button {
+  padding: 1rem 2rem 1rem 2rem;
+  margin-top: 2rem;
+  border-radius: 3rem;
+  border: .4px solid black;
+}
+
+.part1 {
+  background-color: white;
+  padding: 5rem 0rem 5rem 0rem;
+}
+
+.part1 .part1-content {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.part1 .intro {
+  width: 49%;
+  border-right: 1px black;
+  padding-right: 50px;
+}
+
+.part1 p {
+  padding-top: 3rem;
+}
+
+.part1 .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 2rem;
+  width: 51%;
+  border-left: 1px solid black;
+}
+
+.part1 .list li {
+  list-style-type: symbols(tick);
+  padding: 5px;
+}
+
+/*........................................................*/
+.wrapper {
+  background-color: #dee6f1;
+}
+
+.wrapper h1 {
+  padding: 3rem;
+}
+
+.wrapper p {
+  padding-left: 3rem;
+}
+
+.wrapper .part2 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .button-wrapper {
+  padding: 1rem 2rem 1rem 2rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  border-radius: 3rem;
+  border: 1px solid black;
+}
+
+/*..........................................................*/
+.button-container {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+/*.........................................................*/
+.footer_area {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer_area form {
+  padding-left: 5rem;
+}
+
+.footer_area input {
+  margin-right: 3.6rem;
+  padding-right: 7rem;
+}
+
+.footer_area h1 {
+  padding-left: 7rem;
+}
+
+.footer_area p {
+  padding-left: 5rem;
+  width: 85%;
+}
+
+.footer_area .noborder {
+  width: 50%;
+}
+
+.footer_area .orci {
+  margin-left: -2rem;
+}
+
+.footer_area .sociallist {
+  padding-left: 4rem;
+  margin-top: 40px;
+  width: 47%;
+  border-left: 2px solid #c7c6c6;
+}
+
+.footer_area .sociallist li {
+  padding: 1rem;
+}
+
+/*........................................................*/
+footer {
+  text-align: center;
+  padding: 2rem;
+}
+
+@media all and (min-width: 320px) and (max-width: 780px) {
+  .wrapper {
+    background-color: #dee6f1;
+  }
+  .wrapper h1 {
+    padding: 3rem;
+  }
+  .wrapper p {
+    padding-left: 3rem;
+  }
+  .wrapper .part2 {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wrapper .button-wrapper {
+    padding: 1rem 2rem 1rem 2rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    border-radius: 3rem;
+    border: none;
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #dee6f1;
+}
+/*# sourceMappingURL=style.css.map */

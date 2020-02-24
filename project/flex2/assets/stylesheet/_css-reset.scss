@@ -41,32 +41,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-body{width: 80%;
-    margin: 0 auto;
-    background-color:rgba(205, 216, 248, 0.308);
-}
-header{margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-}
-.page{
-    margin: 0 auto;
-}
-h2{
-    justify-content: flex-start;
-}
-select{
-    display: flex;
-    justify-content: space-between;
-    align-content: flex-end;
-}
-.filter{
-    justify-content:flex end;
-}
-.sort{ 
-    justify-content:flex end;
-}
-.photogrid{padding-right:200px;
-    flex-wrap: wrap;
+body{
+	font-size: 16px;
 }
