@@ -55,8 +55,7 @@ body {
 
 .hero {
   margin: 0 auto;
-  padding: 1rem;
-  height: 400px;
+  padding: 1rem 0rem 3rem 0rem;
   background-color: indigo;
   background: -webkit-gradient(linear, left top, right top, from(#6a22ee), to(#c139f7));
   background: linear-gradient(to right, #6a22ee, #c139f7);
@@ -123,15 +122,13 @@ body {
 }
 
 .hero .hero_cover .noborder {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 50%;
   font-size: xxx-large;
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
   margin: 0 auto;
+  padding-right: 50px;
 }
 
 .hero .hero_cover .borderleft {
@@ -164,16 +161,16 @@ h1 {
   color: blacK;
 }
 
-.part1 {
-  background-color: white;
-  padding: 5rem 0rem 5rem 0rem;
-}
-
-.part1 button {
+button {
   padding: 1rem 2rem 1rem 2rem;
   margin-top: 2rem;
   border-radius: 3rem;
-  border: none;
+  border: .4px solid black;
+}
+
+.part1 {
+  background-color: white;
+  padding: 5rem 0rem 5rem 0rem;
 }
 
 .part1 .part1-content {
@@ -187,6 +184,7 @@ h1 {
 .part1 .intro {
   width: 49%;
   border-right: 1px black;
+  padding-right: 50px;
 }
 
 .part1 p {
@@ -235,27 +233,7 @@ h1 {
   margin-left: 3rem;
   margin-top: 2rem;
   border-radius: 3rem;
-  border: none;
-}
-
-.wrapper .part3 {
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 2rem;
-  background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.wrapper .part4 {
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 2rem;
-  background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  border: 1px solid black;
 }
 
 /*..........................................................*/
@@ -265,7 +243,7 @@ h1 {
 }
 
 /*.........................................................*/
-.ender {
+.footer_area {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: white;
@@ -274,43 +252,40 @@ h1 {
   display: flex;
 }
 
-.ender form {
+.footer_area form {
   padding-left: 5rem;
 }
 
-.ender button {
-  padding: 1rem 2rem 1rem 2rem;
-  margin-top: 2rem;
-  border-radius: 3rem;
-  border: none;
-}
-
-.ender input {
+.footer_area input {
   margin-right: 3.6rem;
   padding-right: 7rem;
 }
 
-.ender h1 {
+.footer_area h1 {
   padding-left: 7rem;
 }
 
-.ender p {
+.footer_area p {
   padding-left: 5rem;
   width: 85%;
 }
 
-.ender .noborder {
+.footer_area .noborder {
   width: 50%;
 }
 
-.ender .endlist {
+.footer_area .orci {
+  margin-left: -2rem;
+}
+
+.footer_area .sociallist {
   padding-left: 4rem;
   margin-top: 40px;
   width: 47%;
   border-left: 2px solid #c7c6c6;
 }
 
-.ender .endlist li {
+.footer_area .sociallist li {
   padding: 1rem;
 }
 
@@ -318,6 +293,38 @@ h1 {
 footer {
   text-align: center;
   padding: 2rem;
+}
+
+@media all and (min-width: 320px) and (max-width: 780px) {
+  .wrapper {
+    background-color: #dee6f1;
+  }
+  .wrapper h1 {
+    padding: 3rem;
+  }
+  .wrapper p {
+    padding-left: 3rem;
+  }
+  .wrapper .part2 {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wrapper .button-wrapper {
+    padding: 1rem 2rem 1rem 2rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    border-radius: 3rem;
+    border: none;
+  }
 }
 
 body {
